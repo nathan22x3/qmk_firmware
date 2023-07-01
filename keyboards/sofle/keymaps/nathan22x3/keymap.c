@@ -46,11 +46,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *            `-----------------------------------'           '------''---------------------------'
      */
     [_LOWER] = LAYOUT(
-        KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,                     KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_DEL  ,
-        KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,                     KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_GRV  ,
-        KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,                     KC_LEFT , KC_DOWN , KC_UP   , KC_RIGHT, KC_NO   , KC_NO   ,
-        KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_MUTE , KC_PSCR , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,
-                     KC_LGUI , KC_LALT , _______ , KC_LCTL , KC_ENT  ,               KC_SPC  , KC_NO   , KC_NO   , KC_NO   , KC_NO
+        _______ , _______ , _______ , _______ , _______ , _______ ,                     _______ , _______ , _______ , _______ , _______ , KC_DEL  ,
+        _______ , _______ , _______ , _______ , _______ , _______ ,                     _______ , _______ , _______ , _______ , _______ , KC_GRV  ,
+        _______ , _______ , _______ , _______ , _______ , _______ ,                     KC_LEFT , KC_DOWN , KC_UP   , KC_RIGHT, _______ , _______ ,
+        _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ ,
+                     _______ , _______ , _______ , _______ , _______ ,               _______ , _______ , _______ , _______ , _______
     ),
     /*
      * GAMING
